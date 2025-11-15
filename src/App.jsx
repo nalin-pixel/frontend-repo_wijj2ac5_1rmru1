@@ -1,5 +1,5 @@
 import { useMemo } from 'react'
-import { Building2, MapPin, Cube, Tv2, Sparkles, MessageSquare, PanelsTopLeft, Rocket, ShieldCheck, Clock, Layers, Cpu } from 'lucide-react'
+import { Building2, MapPin, Cube, Monitor, Sparkles, MessageSquare, LayoutDashboard, Rocket, ShieldCheck, Clock, Layers, Cpu } from 'lucide-react'
 
 function StatBadge({ icon: Icon, label }) {
   return (
@@ -108,7 +108,7 @@ export default function App() {
             accent="violet"
           />
           <FeatureCard
-            icon={Tv2}
+            icon={Monitor}
             title="Digital Tabletop Display"
             desc="A large touchscreen table for sales galleries showing masterplans, inventory, comparisons, and surroundings—replacing brochures."
             accent="emerald"
@@ -126,7 +126,7 @@ export default function App() {
             accent="blue"
           />
           <FeatureCard
-            icon={PanelsTopLeft}
+            icon={LayoutDashboard}
             title="Digital Experience Centers"
             desc="Curved LED rooms, transparent displays, multi-screen immersive environments, and interactive screens with complete integration."
             accent="violet"
